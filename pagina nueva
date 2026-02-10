@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #3333cc;
+        }
+        p {
+            font-size: 18px;
+            color: #555555;
+        }
+        a {
+            color: #cc3333;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        img {
+            width: 300px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Bienvenido a mi página web!</h1>
+    <p>Esta es una página de ejemplo creada en HTML y CSS.</p>
+    <img src="https://via.placeholder.com/300" alt="Imagen de ejemplo">
+    <p>Visita <a href="https://www.example.com" target="_blank">este sitio</a> para más información.</p>
+</body>
+</html>
